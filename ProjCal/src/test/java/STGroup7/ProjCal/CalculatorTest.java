@@ -35,5 +35,8 @@ public class CalculatorTest {
 	public void testdiv() {
 		assertEquals(2,calc.div(10,5));
 	}
-
+	@Test
+	public void testdiv() {
+		assertEquals(2,calc.div(18,9));
+	}
 }
