@@ -1,0 +1,35 @@
+package STGroup7.ProjCal;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	private static Calculator calc;
+	
+	@BeforeClass
+	public static void setup() {
+		calc =new Calculator();
+	}
+	
+	
+	@Test
+	public void testadd() {
+		assertEquals(8,calc.add(3, 5));
+	}
+	@Test
+	public void testsub() {
+		assertEquals(5,calc.sub(7,2));
+	}
+	@Test
+	public void testmul() {
+		assertEquals(36,calc.mul(4,9));
+	}
+	@Test
+	public void testdiv() {
+		assertEquals(2,calc.div(10,5));
+	}
+
+}
