@@ -28,6 +28,10 @@ public class CalculatorTest {
 		assertEquals(36,calc.mul(4,9));
 	}
 	@Test
+	public void testmul() {
+		assertEquals(40,calc.mul(8,5));
+	}
+	@Test
 	public void testdiv() {
 		assertEquals(2,calc.div(10,5));
 	}
