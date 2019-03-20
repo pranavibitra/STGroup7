@@ -28,7 +28,7 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testsub1() {
-		assertEquals(4,calc.sub(8,4));
+		assertEquals(5,calc.sub(8,3));
 	}
 	@Test
 	public void testmul() {
