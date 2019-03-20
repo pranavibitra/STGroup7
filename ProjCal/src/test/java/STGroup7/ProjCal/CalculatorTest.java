@@ -27,16 +27,10 @@ public class CalculatorTest {
 	public void testmul() {
 		assertEquals(36,calc.mul(4,9));
 	}
-	@Test
-	public void testmul() {
-		assertEquals(40,calc.mul(8,5));
-	}
+	
 	@Test
 	public void testdiv() {
 		assertEquals(2,calc.div(10,5));
 	}
-	@Test
-	public void testdiv() {
-		assertEquals(4,calc.div(20,5));
-	}
+	
 }
