@@ -5,7 +5,7 @@ public class Calculator {
 	public Calculator() {
 		
 	}
-	/*public int add(int a, int b){
+	public int add(int a, int b){
 		return a+b;
 	}
 	public int sub(int c,int d) {
@@ -16,6 +16,6 @@ public class Calculator {
 	}
 	public int div(int g,int h) {
 		return g/h;
-	}*/
+	}
 
 }
