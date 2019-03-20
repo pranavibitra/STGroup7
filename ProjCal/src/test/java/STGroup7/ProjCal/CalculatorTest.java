@@ -27,6 +27,10 @@ public class CalculatorTest {
 		assertEquals(4,calc.sub(8,4));
 	}
 	@Test
+	public void testsub1() {
+		assertEquals(4,calc.sub(8,4));
+	}
+	@Test
 	public void testmul() {
 		assertEquals(36,calc.mul(4,9));
 	}
