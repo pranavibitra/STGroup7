@@ -21,10 +21,6 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testsub() {
-		assertEquals(5,calc.sub(7,2));
-	}
-	@Test
-	public void testsub() {
 		assertEquals(4,calc.sub(8,4));
 	}
 	@Test
